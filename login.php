@@ -15,10 +15,10 @@
 
 <p>
     <?PHP
-
+    $login = $_POST['login'];
     if ($login == "Mike") {
 
-        print ("Welcome back!");
+        print ("Welcome back");
 
     }
     else {
@@ -26,6 +26,7 @@
         print ("You're not a member of this site");
 
     }
+
 
     ?>
 </p>

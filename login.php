@@ -16,8 +16,8 @@
 <p>
     <?PHP
 
-    $username = $_POST['username'];
-    print ($username);
+    $login = $_POST['login'];
+    print ($login);
 
     ?>
 </p>

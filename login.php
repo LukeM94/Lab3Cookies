@@ -18,7 +18,7 @@
 
     if ($login == "Mike") {
 
-        print ("Welcome back, friend!");
+        print ("Welcome back!");
 
     }
     else {

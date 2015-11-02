@@ -16,8 +16,16 @@
 <p>
     <?PHP
 
-    $login = $_POST['login'];
-    print ($login);
+    if ($login == "Mike") {
+
+        print ("Welcome back, friend!");
+
+    }
+    else {
+
+        print ("You're not a member of this site");
+
+    }
 
     ?>
 </p>
